@@ -11,6 +11,7 @@ tags:
 readtime: 15
 authors:
   - ANNOYING
+comments: true
 ---
 
 <!-- more -->
