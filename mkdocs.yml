@@ -67,6 +67,13 @@ extra:
           data: 0
           note: >- 
             피드백 감사합니다!
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AN-NOYING
+      name: GitHub Profile
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCXd5Xu7oQjMEn69SfG-ezeQ
+      name: Youtube Channel
 
 extra_css:
   - stylesheets/extra.css
