@@ -55,7 +55,7 @@ extra:
         - icon: material/emoticon-happy-outline
           name: 도움이 되었습니다.
           data: 1
-          note: >-
+          note: >- 
             피드백 감사합니다.
         - icon: material/emoticon-sad-outline
           name: 도움이 되지 않았어요.
