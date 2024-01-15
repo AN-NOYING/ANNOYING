@@ -32,10 +32,14 @@ theme:
 
 copyright: >
   &copy; 2024. ANNOYING all right reserved. –
-  <a href="#__consent">쿠기 설정 변경</a>
+  <a href="#__consent">쿠키 설정 변경</a>
 
 extra:
   consent:
+    actions:
+      - accept
+      - reject
+      - manage
     title: Cookie consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well
