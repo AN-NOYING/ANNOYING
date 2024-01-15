@@ -1,4 +1,9 @@
 site_name: Annyoing's Blog
+site_url: https://an-noying.github.io/ANNOYING
+site_author: ANNOYING
+site_description: >-
+  반갑습니다. 종함 게임 정보를 다루는 블로거이자 유튜버지만, 현재는 한국 메이플스토리를 주로 하고 있습니다.
+
 theme:
   custom_dir: overrides
   features:
@@ -68,6 +73,7 @@ extra_css:
 
 plugins:
   - blog:
+      blog_toc: true
       blog_dir: MapleStory
       categories_allowed:
         - 안내서
