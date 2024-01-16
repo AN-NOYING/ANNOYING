@@ -85,6 +85,7 @@ plugins:
       categories_allowed:
         - 안내서
         - 패치 및 업데이트
+        - 아티팩트
         - 이벤트
         - 퀘스트
         - 아이템
