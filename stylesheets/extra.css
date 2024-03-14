@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    font-family: 'SpoqaHanSansNeo-Regular', var(--md-text-font-family);
+}
+
+.md-content__inner.md-typeset h1,
+.md-content__inner.md-typeset h2,
+.md-content__inner.md-typeset h3,
+.md-content__inner.md-typeset h4,
+.md-content__inner.md-typeset h5,
+.md-content__inner.md-typeset h6 {
+    font-weight: bold;
+}
+
+.md-content__inner.md-typeset h2 {
+    border-bottom: 3px solid var(--md-primary-fg-color);
+}
+.md-content__inner.md-typeset h3 {
+    border-left: 3px solid var(--md-primary-fg-color);
+    border-bottom: 1px solid var(--md-primary-fg-color);
+    padding-left: 0.25rem;
+}
+.md-content__inner.md-typeset h4 {
+    border-bottom: 1px dashed var(--md-primary-fg-color);
+}
+.md-content__inner.md-typeset h5 {
+    border-bottom: 1px dotted var(--md-primary-fg-color);
+}
+
+.md-content__inner.md-typeset p a,
+.md-content__inner.md-typeset li a {
+    font-weight: bold;
+}
+
+.md-content__inner.md-typeset p sup,
+.md-content__inner.md-typeset p sub {
+    color: gray;
+}
